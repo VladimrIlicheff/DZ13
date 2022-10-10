@@ -8,4 +8,4 @@ Console.WriteLine("Введите любое число");
 int num = int.Parse(Console.ReadLine()!);
 if (num<100) Console.WriteLine("третьей цифры нет!");
 string str = num.ToString();
-Console.WriteLine();
+Console.WriteLine(str[2]);
